@@ -1159,6 +1159,11 @@ p,.lead,.b,.tl-tx p,.cp p{text-wrap:pretty}
 .hv2 h1 .a1{font-size:.88em!important}
 @media(max-width:900px){.hv2 h1 .a2{margin-top:10px!important}}
 @media(max-width:900px){.hv2 h1 .a2{margin-top:16px!important}}
+@media(max-width:600px){.cm-node{width:30%}.cm-node .nl{font-size:8.6px!important;letter-spacing:-.03em;padding:0 2px;max-width:100%}}
+@media(max-width:900px){.cm-for ul{align-items:center!important;width:100%!important}.cm-for li{justify-content:center!important;text-align:center!important;white-space:normal!important}}
+@media(max-width:900px){.fab-bubble{display:block!important;font-size:13.5px;padding:10px 14px;max-width:200px;line-height:1.4}.fab{align-items:center}}
+.tl-eic{background:linear-gradient(135deg,#694b39,#4b3529)!important;border:0!important;color:#f5f0ea!important;box-shadow:0 12px 24px -14px rgba(75,53,41,.6)}
+.tl-eic svg{stroke-width:1.6}
 </style>
 </head>
 <body>
@@ -1421,7 +1426,7 @@ const CONFIG = {
   whatsapp: "5517996432187",   // país + DDD + número, só dígitos (WhatsApp da Dra. Laís)
   medica: "Dra. Laís",
   formEndpoint: "",            // opcional: URL de serviço de formulário. Vazio = abre o WhatsApp
-  fabDelay: 6000,
+  fabDelay: 2500,
   problems: [
     "Dúvida sobre preenchimento labial", "Quero entender o Full Face", "Incômodo com sinais da idade", "Mudanças após perda de peso",
     "Cuidado estético preventivo", "Receio de um resultado artificial", "Não sei por onde começar", "Quero uma avaliação criteriosa",
